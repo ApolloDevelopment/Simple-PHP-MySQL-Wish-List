@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px #000 solid; */
+}
+
+*::selection {
+  background-color: #00000000;
+  color: #212529;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin: 20px 0px;
+}
+
+form {
+  width: 100%;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+form input, form button {
+  display: inline !important;
+  vertical-align: middle;
+}
+input#name {
+  width: 20%;
+}
+input#link {
+  width: 60%;
+}
+button {
+  width: 15%;
+}
+
+.itemContainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.item {
+  background-color: #FFF;
+  padding: 15px;
+  margin: 15px 0px;
+  box-shadow: 1px 1px 5px #b7b7b7;
+  transition: 0.1s ease;
+  cursor: default;
+}
+.item_name {
+  font-size: 24px;
+  width: 95%;
+}
+.item:hover {
+  box-shadow: 1px 1px 10px #848484;
+}
+
+.item .btn {
+  width: 10% !important;
+  margin-top: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+i.extras {
+  float: right;
+  cursor: pointer;
+  padding: 7px 12px;
+  transition: 0.2s ease;
+  border-radius: 3px;
+}
+
+i.extras:hover {
+  background-color: #d8d8d8;
+}
+
+.btnContainer {
+  display: none;
+  overflow: hidden;
+}
